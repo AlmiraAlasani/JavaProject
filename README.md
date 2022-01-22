@@ -81,5 +81,43 @@ Response:
 
 5.URL: http://localhost:8080/book/ Delete Book by id- METHOD = DELETE
 
+#Booking endpoint
+
+1.URL: http://localhost:8080/booking Get all Booking - METHOD = GET
+
+Response:
+[{"id": 2,"bookid": {"id": 2,"name": "Test","author": "Meriton Ademi","description": "ss"},"costumerid": {"id": 1,"name": "Meriton","surname": "Ademi"},"loaned": "2022-01-10","returned": "2022-01-27"},{ "id": 7,"bookid": { "id": 11,"name": "Test","author": "Meriton Ademi","description": "ss"},"costumerid": {"id": 5,"name": "Ali ","surname": "Amzai"},"loaned": "2022-02-10","returned": "2022-02-25"}]
+
+2.URL: http://localhost:8080/booking/ Get Booking by id - METHOD = GET
+
+Response:
+{ "id": 7,"bookid": { "id": 11,"name": "Test","author": "Meriton Ademi","description": "ss"},"costumerid": {"id": 5,"name": "Ali ","surname": "Amzai"},"loaned": "2022-02-10","returned": "2022-02-25"}
+
+3.URL: http://localhost:8080/booking/ Edit Booking by id - METHOD = PUT
+
+Response:
+{"id": 7,"bookid": { "id": 11,"name": "Test","author": "Meriton Ademi","description": "ss"},"costumerid": {"id": 5,"name": "Ali ","surname": "Amzai"},"loaned": "2022-02-10","returned": "2022-02-25"}
 
 
+4.URL: http://localhost:8080/booking/ Add Booking- METHOD = POST
+
+Response:
+{
+       "id":8
+        "bookid": {
+            "id": 2,
+            "name": "Test",
+            "author": "Meriton Ademi",
+            "description": "ss"
+        },
+        "costumerid": {
+            "id": 1,
+            "name": "Meriton",
+            "surname": "Ademi"
+        },
+        "loaned": "2022-11-10",
+        "returned": "2022-01-27"
+    }
+    
+ 
+ 5.URL: http://localhost:8080/booking/ Delete Booking by id- METHOD = DELETE
