@@ -33,7 +33,7 @@ Response:
     "surname": "Alasani"
 }
 
-4.URL: http://localhost:9091/costumer/ Add Costumer- METHOD = POST
+4.URL: http://localhost:8080/costumer/ Add Costumer- METHOD = POST
 
 Response:
 {
@@ -42,7 +42,7 @@ Response:
     "surname": "Alasani"
 }
 
-5.URL: http://localhost:9091/costumer/ Delete Costumer by id- METHOD = DELETE
+5.URL: http://localhost:8080/costumer/ Delete Costumer by id- METHOD = DELETE
 
 #Book Endpoint
 
@@ -66,7 +66,7 @@ Response:
     "description": "ss"
 }
 
-4.URL: http://localhost:9091/book/ Add Book- METHOD = POST
+4.URL: http://localhost:8080/book/ Add Book- METHOD = POST
 
 Response:
 {
@@ -76,7 +76,7 @@ Response:
     "description": "ss"
 }
 
-5.URL: http://localhost:9091/book/ Delete Book by id- METHOD = DELETE
+5.URL: http://localhost:8080/book/ Delete Book by id- METHOD = DELETE
 
 
 
