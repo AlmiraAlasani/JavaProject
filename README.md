@@ -12,9 +12,24 @@ Library Management System
 
 #Endpoint
 
-#Location endpoint
+#Costumer endpoint
 
-1.URL: http://localhost:9090/location Get all Location - METHOD = GET
+1.URL: http://localhost:8080/costumer Get all Costumer - METHOD = GET
 
-Response List of Location Objects
+Response:
+[{  "id": 1,"name": "Meriton","surname": "Ademi"}, {"id": 4,"name": "Almira","surname": "Alasani" }, {"id": 5,"name": "Ali ","surname": "Amzai"}]
+
+2.URL: http://localhost:8080/costumer/ Get Costumer by id - METHOD = GET
+
+Response:
+{"id": 4,"name": "Almira","surname": "Alasani" }
+
+3.URL: http://localhost:8080/costumer/ Edit Costumer by id - METHOD = PUT
+
+{
+    "id": 4,
+    "name": "Almira",
+    "surname": "Alasani"
+}
+
 
