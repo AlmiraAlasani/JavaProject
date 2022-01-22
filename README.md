@@ -6,8 +6,11 @@ Library Management System
 #How to run This Project
 
 1.Import database from library.sql
+
 2.Open Project
+
 3.Go to src/main/com.example.demo/demoApplication.java
+
 4.Run Demo Application
 
 #Endpoint
