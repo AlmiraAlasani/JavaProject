@@ -26,10 +26,57 @@ Response:
 
 3.URL: http://localhost:8080/costumer/ Edit Costumer by id - METHOD = PUT
 
+Response:
 {
     "id": 4,
     "name": "Almira",
     "surname": "Alasani"
 }
+
+4.URL: http://localhost:9091/costumer/ Add Costumer- METHOD = POST
+
+Response:
+{
+    "id": 5,
+    "name": "Almira",
+    "surname": "Alasani"
+}
+
+5.URL: http://localhost:9091/costumer/ Delete Costumer by id- METHOD = DELETE
+
+#Book Endpoint
+
+1.URL: http://localhost:8080/book Get all Book - METHOD = GET
+
+Response:
+{"id": 11, "name": "Test", "author": "Meriton Ademi", "description": "ss"}
+
+2.URL: http://localhost:8080/book/ Get Book by id - METHOD = GET
+
+Response:
+{"id": 11, "name": "Test", "author": "Meriton Ademi", "description": "ss"}
+
+3.URL: http://localhost:8080/book/ Edit Book by id - METHOD = PUT
+
+Response:
+{
+    "id": 11,
+    "name": "Test",
+    "author": "Meriton Ademi",
+    "description": "ss"
+}
+
+4.URL: http://localhost:9091/book/ Add Book- METHOD = POST
+
+Response:
+{
+    "id": 12,
+    "name": "Test",
+    "author": "Meriton Ademi",
+    "description": "ss"
+}
+
+5.URL: http://localhost:9091/book/ Delete Book by id- METHOD = DELETE
+
 
 
