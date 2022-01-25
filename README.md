@@ -52,7 +52,20 @@ Response:
 1.URL: http://localhost:8080/book Get all Book - METHOD = GET
 
 Response:
-{"id": 11, "name": "Test", "author": "Meriton Ademi", "description": "ss"}
+[
+    {
+        "id": 2,
+        "name": "Test",
+        "author": "Meriton Ademi",
+        "description": "ss"
+    },
+    {
+        "id": 11,
+        "name": "Test",
+        "author": "Meriton Ademi",
+        "description": "ss"
+    }
+]
 
 2.URL: http://localhost:8080/book/ Get Book by id - METHOD = GET
 
